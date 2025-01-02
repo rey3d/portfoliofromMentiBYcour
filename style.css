@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    background-color: black;
+   
+}
+
+.header-class{
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97vh;
+}
+
+
+.header-h1{
+    font-size: 100px;
+}
+
+.nev-button:hover{
+    background-color: rgb(99, 123, 134);
+}
+ 
+.nev-button{
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20%;
+    background-color: aquamarine;
+
+}
+   
+.about-class{
+    text-align: center;
+    height: 80vh;
+    padding-top: 50px;
+}
+.about-h1:hover{
+    color:  aquamarine;;
+}
+.about-h1{
+   font-size: 40px;
+}
+.about-img{
+    height: 300px;
+}
+.about-button-div{
+    padding-right: 1400px;
+    padding-top: 30px;
+}
+.about-button{
+    background-color: black;
+    color: azure;
+}
+.MentiBY-class:hover{
+    color: rgb(99, 123, 134);
+}
+.MentiBY-class{
+    color: aquamarine;
+
+}
+.university-class:hover{
+    color: rgb(99, 123, 134);
+}
+.university-class{
+    color: aquamarine;
+}
+.skills-class{
+     padding-top: 200px;
+    height: 95vh;
+}
+.skills-h1:hover{
+    color: aquamarine;
+}
+.skills-h1{
+    font-size:60px;
+    text-align: center;
+    
+}
+.skills-list{
+   padding-left: 730px;
+}
+.skills-button-div{
+    
+    padding-top: 60px;
+}
