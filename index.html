@@ -22,14 +22,19 @@
         <h1 class="about-h1">G LakshmiPrasad Reddy</h1>
        
         <img class="about-img" src="https://res.cloudinary.com/dlahzlrop/image/upload/c_fill,,f_png,g_face,h_320,w_320/r_max/v1733586931/cropped-IMG-20241005-WA0004_zdu1cw.jpg" alt="myimage">
-        <p>Undergraduate Student <br><a class="university-class" href="https://www.sastra.edu/" >SASTRA University</a><br><br>
-            I am passionate about building a strong foundation in technology and innovation.<br> With a solid grasp of programming languages like C++,Java,and expertise in Data Structures and Algorithms (DSA).<br>
-            I aim to solve complex problems with efficient solutions.<br>
+        <div>
+         <p>Undergraduate Student <br><a class="university-class" href="https://www.sastra.edu/" >SASTRA University</a><br>
+            I am passionate about building a strong foundation in technology and innovation. <br>
+            With a solid grasp of programming languages like C++,Java,and expertise in Data Structures and Algorithms (DSA).
+            <br>
             
-            📚 I'm currently expanding my skill set by exploring Python and Web Development through the innovative platform <a class="MentiBY-class" href="https://mentiby.com/product/cws-premium"><b>MentiBY</b></a>, <br>
-            which fuels my curiosity for continuous learning and growth in the tech domain.</p>
+         I'm currently expanding my skill set by exploring Python and Web Development through the innovative platform <a class="MentiBY-class" href="https://mentiby.com/product/cws-premium"><b>MentiBY</b></a>
+            </p>
+
+        </div>
         <div class="about-button-div">
-           <a href="#home"><button class="about-button">prev page</button></a> 
+           <a href="#home"><button class="about-button">Prev Page</button></a>
+           <a href="#skills"><button class="about-button">Next Page</button></a>  
         </div>
         
     </div>
@@ -43,12 +48,111 @@
             <li>Python</li>
             <li>Web Development</li> 
         </ol>
+    
         <div class="skills-button-div">
-            <a href="#about"><button class="about-button">prev page</button></a> 
-         </div>
+            <a href="#home"><button class="about-button">Go to Home</button></a>
+            <a href="#about"><button class="about-button">Previous Page</button></a> 
+            <a href="#projects"><button class="about-button">Next Page</button></a> 
+             
+        </div>
+    </div>
+         
+    <div class="projects-class" id="projects">
+            <h1 class="projects-h1">My Projects</h1>
+            <table class="projects-table">
+                <tr>
+                    <th>S.No</th>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Portfolio Website</td>
+                    <td>I have build portfolio web page using HTML and CSS</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Weather Website</td>
+                    <td>I have build Weather Website using HTML,CSS and JavaScript</td>
+                </tr>
+                
+            </table>
+            <div class="projects-button-div">
+                <a href="#home"><button class="about-button">Go to Home</button></a>
+                <a href="#about"><button class="about-button">Previous Page</button></a> 
+                <a href="#contact"><button class="about-button">Next Page</button></a> 
+                 
+            </div>
+    </div>
+
+    <div id="contact" class="contact-class">
+        <h1 class="contact-h1">Contact Me</h1>
+        <form class="contact-form">
+            <ol class="contact-ol">
+                <li class="contact-li">
+                    <lable for="name">Name:</lable>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </li>
+                <li class="contact-li">
+                    <lable for="email">Email:</lable>
+                     <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </li>
+                <li class="contact-li">
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="date" required>
+                </li>
+                <li class="contact-li">
+                    <label for="gender">Choose your Gender:</label>
+                    <input type="radio" id="male"name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female"name="gender" value="female">
+                    <label for="female">Female</label>
+                </li>
+                <li class="contact-li">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </li>
+                <li class="contact-li">
+                    <label for="intresets">Select Your Intresets</label>
+                    <input type="checkbox" id="watchingmovies" name="intresets[]" value="watchingmovies">
+                    <label for="watchingmovies">Watching Movies</label>
+                    <input type="checkbox" id="readingbooks" name="intresets[]" value="readingbooks">
+                    <label for="readingbooks">Reading Books</label>
+                    <input type="checkbox" id="coding" name="intresets[]" value="coding">   
+                    <label for="coding">Coding</label>
+                    
+                </li>
+                <li class="contact-li">
+                    <label for="bio">Bio (upto 150 characters)</label>
+                    <textarea id="bio" name="bio" rows="5" cols="25"></textarea>
+                </li>
+                <li class="contact-li-submit">
+                    <input type="submit" value="Submit" id="submit">
+            </ol>
+            
+        </form>
+        <div class="contact-button-div">
+            <a href="#home"><button class="about-button">Go to Home</button></a>
+
+             
+        </div>
     </div>
     
-   
+    <div class="footer-class">
+        <p class="copyright">&copy; All Rights Reserved</p>
+        <div class="footer-imgs">
+            <a href="https://www.linkedin.com/in/lakshmiprasadreddy03/"><img class="footer-img-linkedin" src="https://res.cloudinary.com/dlahzlrop/image/upload/v1735926295/linkedin%20icon.png" alt="linkedin_icon"></a> 
+            <a href="https://github.com/rey3d"><img class="footer-img-github" src="https://res.cloudinary.com/dlahzlrop/image/upload/v1735925983/nt9jvezwyndm8rlbfcoh.png" alt="github_icon"></a> 
+            <a href="https://www.hackerrank.com/profile/lakshmiprasadre3"><img class="footer-img-github" src="https://res.cloudinary.com/dlahzlrop/image/upload/v1735966877/hackerrankicon.png" alt="hackerrank_icon"></a>  
+        </div>
+        
+    </div>
    
     
         
