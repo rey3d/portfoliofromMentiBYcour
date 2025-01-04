@@ -6,11 +6,11 @@ body{
 }
 
 .header-class{
-    padding-top: 250px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 97vh;
+    height: 85vh;
 }
 
 
@@ -45,13 +45,19 @@ body{
     height: 300px;
 }
 .about-button-div{
-    padding-right: 1400px;
-    padding-top: 30px;
+    padding-left: 20px;
 }
+
 .about-button{
     background-color: black;
     color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+    
 }
+
 .MentiBY-class:hover{
     color: rgb(99, 123, 134);
 }
@@ -66,8 +72,8 @@ body{
     color: aquamarine;
 }
 .skills-class{
-     padding-top: 200px;
-    height: 95vh;
+    padding-top: 150px;
+    height: 75vh;
 }
 .skills-h1:hover{
     color: aquamarine;
@@ -75,12 +81,84 @@ body{
 .skills-h1{
     font-size:60px;
     text-align: center;
-    
 }
 .skills-list{
-   padding-left: 730px;
+  padding-left: 600px;
 }
 .skills-button-div{
+    padding-left: 20px;
+}
+.projects-class{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    height: 75vh;
+}
+.projects-h1{
+    font-size: 50px;
+}
+td:hover{
+    background-color:rgb(99, 123, 134);;
+}   
+table,th,td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background-color: aquamarine;
+}
+.projects-button-div{
+    padding-right: 1320px;
+}
+.contact-class{
+    height: 85vh;
+}
+.contact-h1{
+    font-size: 50px;
+    text-align: center;
+}
+.contact-ol{
+    list-style-type: circle;
+    padding-left: 650px;   
+}
+.contact-li{
+    padding: 10px;
+}
+#submit:hover{
+    background-color: aquamarine;
     
-    padding-top: 60px;
+}
+#submit{
+    transition: 2s;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+.contact-li-submit{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 120px;
+}
+.contact-button-div{
+    padding-left: 20px;
+}
+.footer-class{
+    background-color: rgb(230, 251, 0);
+    color: black;
+    text-align: center; 
+}
+.footer-img{
+    height: 50px;
+    padding-top: 10px;
+}
+.footer-img-linkedin{
+    height: 40px;
+    padding-top: 10px;
+}
+.footer-img-github{
+    height: 40px;
+    padding-top: 10px;
 }
