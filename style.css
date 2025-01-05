@@ -74,19 +74,23 @@ body{
 .skills-class{
     padding-top: 150px;
     height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .skills-h1:hover{
     color: aquamarine;
 }
 .skills-h1{
     font-size:60px;
-    text-align: center;
+    
 }
-.skills-list{
-  padding-left: 600px;
+.skills-list-div{
+  padding-left: 80px;
 }
 .skills-button-div{
-    padding-left: 20px;
+    padding-right: 1320px;
 }
 .projects-class{
     text-align: center;
