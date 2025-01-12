@@ -1,168 +1,377 @@
-body{
-    margin: 0;
-    color: rgb(255, 255, 255);
-    background-color: black;
-   
-}
-
-.header-class{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 85vh;
-}
-
-
-.header-h1{
-    font-size: 100px;
-}
-
-.nev-button:hover{
-    background-color: rgb(99, 123, 134);
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gruppo&display=swap');
+@media (max-width:600px){
+    body,html{
+        margin: 0;
+        color: rgb(255, 255, 255);
+        background-color: black;
+       height: 100%;
+    }
+    .header-class{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        
+    }
+    .header-h1:active{
+        color: rgb(100, 255, 216);
+    }   
+    .header-h1{
+        font-size: 60px;
+       
+    }
+    .nev-button:active{
+        background-color: rgb(154, 253, 255);
+    }
+    .nev-button{
+        padding: 20px;
+        margin: 5px;
+        border-radius: 20%;
+        background-color: rgb(49, 50, 49);
+        text-decoration: none;
+        font-weight: bolder;
+        font-family: "Gruppo", serif;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    } 
  
-.nev-button{
-    padding: 25px;
-    margin: 10px;
-    border-radius: 20%;
-    background-color: aquamarine;
-
-}
+    .about-class{
+        text-align: center;
+        height: 100vh;
+        padding-top: 50px;
+    }
+    .about-h1:active{
+        color:  aquamarine;;
+    }
+    .about-h1{
+        font-size: 30px;
+    } 
+    .about-img{
+        height: 180px;
+    }
+    .footer-img-github{
+        height: 40px;
+        padding-top: 15px;
+    }
+    .about-p{
+        padding-top: 50px;
+        
+    }
+    .MentiBY-class:active{
+        color: rgb(99, 123, 134);
+    }
+    .MentiBY-class{
+        color: aquamarine;
+        text-decoration: none;
+    }
+    .university-class:active{
+        color: rgb(99, 123, 134);
+    }
+    .university-class{
+        color: aquamarine;
+        text-decoration: none;
+    }
+    .skills-class{
+        height: 77vh; 
+        padding-top: 100px; 
+    }
+    .skills-h1:active{
+        color: aquamarine;   
+    }
+    .skills-h1{
+        font-size:60px;
+        text-align: center;
+    }
+    .skills-list-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .projects-class{
+        height: 100vh;
+    }
+    .projects-h1:active{
+        color: aquamarine;
+    }
+    .projects-h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .projects-table{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 60px;
+       margin: 60px;
+    }
+    td:active{
+        background-color:rgb(221, 213, 213);;
+    }  
+    .projects-th{
+        color: rgb(0, 0, 0);
+        background-color: aquamarine;
+        
+    } 
+    table,th,td{
+        border: 1px solid rgb(55, 64, 67);
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: center;
+        color: rgb(116, 182, 172);
+        background-color: rgb(0, 0, 0);
+        
+    }
+    .contact-class{
+        height: 90vh;
+    }
+    .contact-h1:active{
+        color: aquamarine;
+    }
+    .contact-h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .contact-form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .contact-ol{
+        list-style-type: circle;
+         
+    }
+    .contact-li{
+        padding: 10px;
+    }
    
-.about-class{
-    text-align: center;
-    height: 80vh;
-    padding-top: 50px;
-}
-.about-h1:hover{
-    color:  aquamarine;;
-}
-.about-h1{
-   font-size: 40px;
-}
-.about-img{
-    height: 300px;
-}
-.about-button-div{
-    padding-left: 20px;
+    #submit:active{
+        background-color: aquamarine;
+        
+    }
+    #submit{
+        transition: 2s;
+        border-radius: 10%;
+        width: 80px;
+        height: 20px;
+        font-family: "Gruppo", serif;
+    }
+    .about-button{
+        background-color: black;
+        color: white;
+        font-family: "Gruppo", serif;
+        
+    }
+    .contact-li-submit{
+        list-style-type: none;
+        padding: 10px;
+        margin-left: 100px;
+        
+    }
+    .footer-class{
+        background-color: rgb(230, 251, 0);
+        color: black;
+        text-align: center; 
+    }
+    .footer-img{
+        height: 50px;
+        padding-top: 10px;
+    }
+    .footer-img-linkedin{
+        height: 40px;
+        padding-top: 10px;
+    }
+    .footer-img-github{
+        height: 40px;
+        padding-top: 10px;
+    }
 }
 
-.about-button{
-    background-color: black;
-    color: azure;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: 10px;
-    
-}
 
-.MentiBY-class:hover{
-    color: rgb(99, 123, 134);
-}
-.MentiBY-class{
-    color: aquamarine;
 
-}
-.university-class:hover{
-    color: rgb(99, 123, 134);
-}
-.university-class{
-    color: aquamarine;
-}
-.skills-class{
-    padding-top: 150px;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (min-width: 700px) and (max-width: 2000px) {
+
     
-}
-.skills-h1:hover{
-    color: aquamarine;
-}
-.skills-h1{
-    font-size:60px;
+
+    body{
+        margin: 0;
+        color: rgb(255, 255, 255);
+        background-color: black;
+       
+    }
+    .header-class{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 77vh;
+        
+    }
+    .header-h1:hover{
+        color: rgb(100, 255, 216);
+    }   
+    .header-h1{
+        font-size: 100px;
+       
+    }
+    .nev-button:hover{
+        background-color: rgb(154, 253, 255);
+    }
+    .nev-button{
+        padding: 25px;
+        margin: 10px;
+        border-radius: 20%;
+        background-color: rgb(49, 50, 49);
+        text-decoration: none;
+        font-weight: bolder;
+        font-family: "Gruppo", serif;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }  
+    .about-class{
+        text-align: center;
+        height: 80vh;
+        padding-top: 50px;
+    }
+    .about-h1:hover{
+        color:  aquamarine;;
+    }
+    .about-h1{
+       font-size: 40px;
+    }
+    .about-img{
+        height: 300px;
+    }
+    .about-p{
+        padding-top: 50px;
+    }
+    .MentiBY-class:hover{
+        color: rgb(99, 123, 134);
+    }
+    .MentiBY-class{
+        color: aquamarine;
+        text-decoration: none;
+    }
+    .university-class:hover{
+        color: rgb(99, 123, 134);
+    }
+    .university-class{
+        color: aquamarine;
+        text-decoration: none;
+    }
+    .skills-class{
+        height: 77vh; 
+        padding-top: 100px; 
+    }
+    .skills-h1:hover{
+        color: aquamarine;   
+    }
+    .skills-h1{
+        font-size:60px;
+        text-align: center;
+    }
+    .skills-list-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
     
-}
-.skills-list-div{
-  padding-left: 80px;
-}
-.skills-button-div{
-    padding-right: 1320px;
-}
-.projects-class{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 150px;
-    height: 75vh;
-}
-.projects-h1{
-    font-size: 50px;
-}
-td:hover{
-    background-color:rgb(99, 123, 134);;
-}   
-table,th,td{
-    border: 1px solid rgb(0, 0, 0);
-    border-collapse: collapse;
-    padding: 15px;
-    text-align: center;
-    color: black;
-    background-color: aquamarine;
-}
-.projects-button-div{
-    padding-right: 1320px;
-}
-.contact-class{
-    height: 85vh;
-}
-.contact-h1{
-    font-size: 50px;
-    text-align: center;
-}
-.contact-ol{
-    list-style-type: circle;
-    padding-left: 650px;   
-}
-.contact-li{
-    padding: 10px;
-}
-#submit:hover{
-    background-color: aquamarine;
-    
-}
-#submit{
-    transition: 2s;
-    border-radius: 10%;
-    padding: 10px;
-    
-}
-.contact-li-submit{
-    list-style-type: none;
-    padding: 10px;
-    margin-left: 120px;
-}
-.contact-button-div{
-    padding-left: 20px;
-}
-.footer-class{
-    background-color: rgb(230, 251, 0);
-    color: black;
-    text-align: center; 
-}
-.footer-img{
-    height: 50px;
-    padding-top: 10px;
-}
-.footer-img-linkedin{
-    height: 40px;
-    padding-top: 10px;
-}
-.footer-img-github{
-    height: 40px;
-    padding-top: 10px;
+    .projects-class{
+        height: 75vh;
+    }
+    .projects-h1:hover{
+        color: aquamarine;
+    }
+    .projects-h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .projects-table{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 100px;
+    }
+    td:hover{
+        background-color:rgb(221, 213, 213);;
+    }  
+    .projects-th{
+        color: rgb(0, 0, 0);
+        background-color: aquamarine;
+        
+    } 
+    table,th,td{
+        border: 1px solid rgb(55, 64, 67);
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        color: rgb(116, 182, 172);
+        background-color: rgb(0, 0, 0);
+    }
+    .contact-class{
+        height: 85vh;
+    }
+    .contact-h1:hover{
+        color: aquamarine;
+    }
+    .contact-h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .contact-form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .contact-ol{
+        list-style-type: circle;
+         
+    }
+    .contact-li{
+        padding: 10px;
+    }
+    #submit:hover{
+        background-color: aquamarine;
+        
+    }
+    #submit{
+        transition: 2s;
+        border-radius: 10%;
+        width: 80px;
+        height: 20px;
+        font-family: "Gruppo", serif;
+    }
+    .about-button{
+        background-color: black;
+        color: white;
+        font-family: "Gruppo", serif;
+        
+    }
+    .contact-li-submit{
+        list-style-type: none;
+        padding: 10px;
+        margin-left: 120px;
+        
+    }
+    .footer-class{
+        background-color: rgb(230, 251, 0);
+        color: black;
+        text-align: center; 
+    }
+    .footer-img{
+        height: 50px;
+        padding-top: 10px;
+    }
+    .footer-img-linkedin{
+        height: 40px;
+        padding-top: 10px;
+    }
+    .footer-img-github{
+        height: 40px;
+        padding-top: 10px;
+    }
+
+
 }
