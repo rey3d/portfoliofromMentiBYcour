@@ -6,148 +6,139 @@
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="home" class="header-class">
-        <h1 class="header-h1">My Portfolio</h1>
-        <div class="nev-bar">
-            <a href="#about"><button class="nev-button">About</button></a>
-            <a href="#skills"><button class="nev-button">Skills</button></a>
-            <a href="#projects"><button class="nev-button">Projects</button></a>
-            <a href="#contact"><button class="nev-button">Contact</button></a>
-        </div>
+    <body>
+        <header id="home" class="header-class">
+                <h1 class="header-h1">My Portfolio</h1>
+            <nev class="nev-bar">
+                    <a href="#about"><button class="nev-button">About</button></a>
+                    <a href="#skills"><button class="nev-button">Skills</button></a>
+                    <a href="#projects"><button class="nev-button">Projects</button></a>
+                    <a href="#contact"><button class="nev-button">Contact</button></a>
+            </nev>
 
-    </div>
+        </header>
+        <main>
+            <section id="about" class="about-class">
+                    <h1 class="about-h1">G LakshmiPrasad Reddy</h1>
+                    <img class="about-img" src="myphoto.png" alt="myimage">
+                    <div class="about-p">
+                        <a class="university-class" href="https://www.sastra.edu/" >SASTRA University</a><br>
+                        <p>
+                            I am passionate about building a strong foundation in technology and innovation. <br>
+                            With a solid grasp of programming languages like C++,Java,and expertise in Data Structures and Algorithms (DSA).
+                            <br>
+                            I'm currently expanding my skill set by exploring Python and Web Development through the innovative platform <a class="MentiBY-class" href="https://mentiby.com/product/cws-premium"><b>MentiBY.</b></a>
+                        </p>
+                    </div>
+            </section>
+                
+            <section id="skills" class="skills-class">
+                    <h1 class="skills-h1">Skills</h1>
+                    <div class="skills-list-div">
+                        <ol>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Python</li>
+                            <li>Web Development</li> 
+                        </ol>
+                    </div>
+            </section>
+                
+            <section class="projects-class" id="projects">
+                        <h1 class="projects-h1">My Projects</h1>
+                        <div class="projects-table">
+                            <table>
+                                <tr>
+                                    <th class="projects-th">S.No</th>
+                                    <th class="projects-th">Project Name</th>
+                                    <th class="projects-th">Description</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Portfolio Website</td>
+                                    <td>I have build portfolio web page using HTML and CSS</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Weather Website</td>
+                                    <td>I have build Weather Website using HTML,CSS and JavaScript</td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+            </section>
 
-    <div id="about" class="about-class">
-        <h1 class="about-h1">G LakshmiPrasad Reddy</h1>
-       
-        <img class="about-img" src="myphoto.png" alt="myimage">
-        <div class="about-p">
-         <a class="university-class" href="https://www.sastra.edu/" >SASTRA University</a><br>
-         <p>
+            <section id="contact" class="contact-class">
+                    <h1 class="contact-h1">Contact Me</h1>
+                    <form class="contact-form">
+                        <ol class="contact-ol">
+                            <li class="contact-li">
+                                <lable for="name">Name:</lable>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </li>
+                            <li class="contact-li">
+                                <lable for="email">Email:</lable>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </li>
+                            <li class="contact-li">
+                                <label for="date">Date of Birth:</label>
+                                <input type="date" id="date" name="date" required>
+                            </li>
+                            <li class="contact-li">
+                                <label for="gender">Choose your Gender:</label>
+                                <input type="radio" id="male"name="gender" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female"name="gender" value="female">
+                                <label for="female">Female</label>
+                            </li>
+                            <li class="contact-li">
+                                <label for="country">Country:</label>
+                                <select id="country" name="country">
+                                    <option value="India">India</option>
+                                    <option value="USA">USA</option>
+                                    <option value="UK">UK</option>
+                                    <option value="Australia">Australia</option>
+                                </select>
+                            </li>
 
-            I am passionate about building a strong foundation in technology and innovation. <br>
-            With a solid grasp of programming languages like C++,Java,and expertise in Data Structures and Algorithms (DSA).
-            <br>
-            
-            I'm currently expanding my skill set by exploring Python and Web Development through the innovative platform <a class="MentiBY-class" href="https://mentiby.com/product/cws-premium"><b>MentiBY.</b></a>
-         
+                            <li class="contact-li">
+                                <label for="intresets">Select Your Intresets</label><br>
+                                <input type="checkbox" id="watchingmovies" name="intresets[]" value="watchingmovies">
+                                <label for="watchingmovies">Watching Movies</label>
+                                <input type="checkbox" id="readingbooks" name="intresets[]" value="readingbooks">
+                                <label for="readingbooks">Reading Books</label>
+                                <input type="checkbox" id="coding" name="intresets[]" value="coding">   
+                                <label for="coding">Coding</label> 
+                            </li>
 
-         </p>
-           
+                            <li class="contact-li">
+                                <label for="bio">Bio (upto 150 characters)</label><br>
+                                <textarea id="bio" name="bio" rows="5" cols="30"></textarea>
+                            </li>
 
-        </div>
-    </div>
-    
-    <div id="skills" class="skills-class">
-        <h1 class="skills-h1">Skills</h1>
-        <div class="skills-list-div">
-            <ol>
-                <li>C++</li>
-                <li>Java</li>
-                <li>Data Structures and Algorithms</li>
-                <li>Python</li>
-                <li>Web Development</li> 
-            </ol>
-        </div>
-    </div>
-    
-    <div class="projects-class" id="projects">
-            <h1 class="projects-h1">My Projects</h1>
-            <div class="projects-table">
-                <table>
-                    <tr>
-                        <th class="projects-th">S.No</th>
-                        <th class="projects-th">Project Name</th>
-                        <th class="projects-th">Description</th>
+                            <li class="contact-li-submit">
+                                <input type="submit" value="Submit" id="submit">
+                            </li>
+                        </ol>
                         
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Portfolio Website</td>
-                        <td>I have build portfolio web page using HTML and CSS</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Weather Website</td>
-                        <td>I have build Weather Website using HTML,CSS and JavaScript</td>
-                    </tr>
-                    
-                </table>
-            </div>
-    </div>
+                    </form>
+                        <div class="contact-button-div">
+                            <a href="#home"><button class="about-button">Go to Home</button></a>  
+                        </div>
+            </section>
 
-    <div id="contact" class="contact-class">
-        <h1 class="contact-h1">Contact Me</h1>
-        <form class="contact-form">
-            <ol class="contact-ol">
-                <li class="contact-li">
-                    <lable for="name">Name:</lable>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </li>
-                <li class="contact-li">
-                    <lable for="email">Email:</lable>
-                     <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </li>
-                <li class="contact-li">
-                    <label for="date">Date of Birth:</label>
-                    <input type="date" id="date" name="date" required>
-                </li>
-                <li class="contact-li">
-                    <label for="gender">Choose your Gender:</label>
-                    <input type="radio" id="male"name="gender" value="male">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female"name="gender" value="female">
-                    <label for="female">Female</label>
-                </li>
-                <li class="contact-li">
-                    <label for="country">Country:</label>
-                    <select id="country" name="country">
-                        <option value="India">India</option>
-                        <option value="USA">USA</option>
-                        <option value="UK">UK</option>
-                        <option value="Australia">Australia</option>
-                    </select>
-                </li>
-                <li class="contact-li">
-                    <label for="intresets">Select Your Intresets</label><br>
-                    <input type="checkbox" id="watchingmovies" name="intresets[]" value="watchingmovies">
-                    <label for="watchingmovies">Watching Movies</label>
-                    <input type="checkbox" id="readingbooks" name="intresets[]" value="readingbooks">
-                    <label for="readingbooks">Reading Books</label>
-                    <input type="checkbox" id="coding" name="intresets[]" value="coding">   
-                    <label for="coding">Coding</label>
-                    
-                </li>
-                <li class="contact-li">
-                    <label for="bio">Bio (upto 150 characters)</label><br>
-                    <textarea id="bio" name="bio" rows="5" cols="50"></textarea>
-                </li>
-                <li class="contact-li-submit">
-                    <input type="submit" value="Submit" id="submit">
-            </ol>
-            
-        </form>
-        <div class="contact-button-div">
-            <a href="#home"><button class="about-button">Go to Home</button></a>  
-        </div>
-    </div>
+        </main>
     
-    <div class="footer-class">
-        <p class="copyright">&copy; All Rights Reserved</p>
-        <div class="footer-imgs">
-            <a href="https://www.linkedin.com/in/lakshmiprasadreddy03/"><img class="footer-img-linkedin" src="https://res.cloudinary.com/dlahzlrop/image/upload/v1735926295/linkedin%20icon.png" alt="linkedin_icon"></a> 
-            <a href="https://github.com/rey3d"><img class="footer-img-github" src="GitHub-Symbol.png" alt="github_icon"></a> 
-            <a href="https://www.hackerrank.com/profile/lakshmiprasadre3"><img class="footer-img-github" src="https://res.cloudinary.com/dlahzlrop/image/upload/v1735966877/hackerrankicon.png" alt="hackerrank_icon"></a>  
-        </div>
-        
-        
-    </div>
+        <footer class="footer-class">
+                <p class="copyright">&copy; All Rights Reserved</p>
+                <div class="footer-imgs">
+                    <a href="https://www.linkedin.com/in/lakshmiprasadreddy03/"><img class="footer-img-linkedin" src="linkedin-icon.png" alt="linkedin_icon"></a> 
+                    <a href="https://github.com/rey3d"><img class="footer-img-github" src="GitHub-Symbol.png" alt="github_icon"></a> 
+                    <a href="https://www.hackerrank.com/profile/lakshmiprasadre3"><img class="footer-img-github" src="hackerrank-icon.png"hackerrank_icon"></a>  
+                </div>
+        </footer>
    
-    
-        
-    
-    
-    
-</body>
+    </body>
 </html>
