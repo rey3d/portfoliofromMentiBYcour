@@ -1,377 +1,405 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gruppo&display=swap');
-@media (max-width:600px){
-    body,html{
-        margin: 0;
-        color: rgb(255, 255, 255);
-        background-color: black;
-       height: 100%;
-    }
-    .header-class{
-        padding-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
+
+@media (max-width: 600px) {
+        body, html {
+            margin: 0;
+            color: #ffffff;
+            background-color: #000000;
+            height: 100%;
+            font-size: 14px; 
+            
+        }
+        .header-class{
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto; 
+        }
+    
+        .header-h1 {
+            font-size: 40px; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nev-bar{
+            text-align: center;
+        }
+        .nev-button {
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 12px;
+            background-color: #313231;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+            color: #ffffff;
+            display: inline-block;
+            text-align: center;
+            width: 80%; 
+        }
+    
+        .about-class {
+            text-align: center;
+            padding: 20px 15px;
+        }
+    
+        .about-h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .university-class{
+            color: aquamarine;
+            text-decoration: none;
+            transform: scale(1);
+        }
+        .MentiBY-class{
+            color: aquamarine;
+            text-decoration: none;
+        }
+    
+        .about-img {
+            height: 120px;
+            margin: 10px auto;
+        }
+    
+        .about-p {
+            padding-top: 20px;
+            line-height: 1.5;
+        }
+    
+        .skills-class {
+            padding: 20px 15px;
+        }
+    
+        .skills-h1 {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    
+        .skills-list-div {
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            width: 90%;
+            margin: 0px auto;
+        }
         
-    }
-    .header-h1:active{
-        color: rgb(100, 255, 216);
-    }   
-    .header-h1{
-        font-size: 60px;
+    
+        .projects-class {
+            padding: 20px 15px;
+        }
+    
+        .projects-h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    
+        .projects-table {
+            width: 100%;
+            overflow-x: auto; 
+            display: flex;
+            justify-content: center;
+        }
+        .projects-th{
+            color: rgb(0, 0, 0);
+            background-color: aquamarine;   
+        } 
+        table, th, td {
+            font-size: 12px;
+            padding: 8px;
+            border: 1px solid rgb(55, 64, 67);
+            border-collapse: collapse;
+            color: rgb(116, 182, 172);
+            background-color: rgb(0, 0, 0);
+        }
+    
+        .contact-class {
+            padding: 20px 15px;
+        }
+    
+        .contact-h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-align: center;
+
+        }
+    
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
        
-    }
-    .nev-button:active{
-        background-color: rgb(154, 253, 255);
-    }
-    .nev-button{
-        padding: 20px;
-        margin: 5px;
-        border-radius: 20%;
-        background-color: rgb(49, 50, 49);
-        text-decoration: none;
-        font-weight: bolder;
-        font-family: "Gruppo", serif;
-        font-size: 10px;
-        color: rgb(255, 255, 255);
-    } 
- 
-    .about-class{
-        text-align: center;
-        height: 100vh;
-        padding-top: 50px;
-    }
-    .about-h1:active{
-        color:  aquamarine;;
-    }
-    .about-h1{
-        font-size: 30px;
-    } 
-    .about-img{
-        height: 180px;
-    }
-    .footer-img-github{
-        height: 40px;
-        padding-top: 15px;
-    }
-    .about-p{
-        padding-top: 50px;
+        .contact-li {
+            margin: 10px 0;
+            list-style-type: circle;
+        }
         
-    }
-    .MentiBY-class:active{
-        color: rgb(99, 123, 134);
-    }
-    .MentiBY-class{
-        color: aquamarine;
-        text-decoration: none;
-    }
-    .university-class:active{
-        color: rgb(99, 123, 134);
-    }
-    .university-class{
-        color: aquamarine;
-        text-decoration: none;
-    }
-    .skills-class{
-        height: 77vh; 
-        padding-top: 100px; 
-    }
-    .skills-h1:active{
-        color: aquamarine;   
-    }
-    .skills-h1{
-        font-size:60px;
-        text-align: center;
-    }
-    .skills-list-div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-    }
-    .projects-class{
-        height: 100vh;
-    }
-    .projects-h1:active{
-        color: aquamarine;
-    }
-    .projects-h1{
-        font-size: 60px;
-        text-align: center;
-    }
-    .projects-table{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       padding-top: 60px;
-       margin: 60px;
-    }
-    td:active{
-        background-color:rgb(221, 213, 213);;
-    }  
-    .projects-th{
-        color: rgb(0, 0, 0);
-        background-color: aquamarine;
-        
-    } 
-    table,th,td{
-        border: 1px solid rgb(55, 64, 67);
-        border-collapse: collapse;
-        padding: 5px;
-        text-align: center;
-        color: rgb(116, 182, 172);
-        background-color: rgb(0, 0, 0);
-        
-    }
-    .contact-class{
-        height: 90vh;
-    }
-    .contact-h1:active{
-        color: aquamarine;
-    }
-    .contact-h1{
-        font-size: 60px;
-        text-align: center;
-    }
-    .contact-form{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .contact-ol{
-        list-style-type: circle;
-         
-    }
-    .contact-li{
-        padding: 10px;
-    }
-   
-    #submit:active{
-        background-color: aquamarine;
-        
-    }
-    #submit{
-        transition: 2s;
-        border-radius: 10%;
-        width: 80px;
-        height: 20px;
-        font-family: "Gruppo", serif;
-    }
-    .about-button{
-        background-color: black;
-        color: white;
-        font-family: "Gruppo", serif;
-        
-    }
-    .contact-li-submit{
-        list-style-type: none;
-        padding: 10px;
-        margin-left: 100px;
-        
-    }
-    .footer-class{
-        background-color: rgb(230, 251, 0);
-        color: black;
-        text-align: center; 
-    }
-    .footer-img{
-        height: 50px;
-        padding-top: 10px;
-    }
-    .footer-img-linkedin{
-        height: 40px;
-        padding-top: 10px;
-    }
-    .footer-img-github{
-        height: 40px;
-        padding-top: 10px;
-    }
+        .contact-li-submit{
+            list-style-type: none;
+           padding-left: 50px;
+            
+        }
+    
+        #submit {
+            width: 100px;
+            height: 25px;
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: "Gruppo", serif;
+        }
+        .about-button{
+            background-color: black;
+            color: white;
+            font-family: "Gruppo", serif;
+        }
+    
+        .footer-class {
+            background-color: #e6fb00;
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+        }
+    
+        .footer-img, .footer-img-linkedin, .footer-img-github {
+            height: 30px;
+            margin: 10px;
+        }
 }
 
 
 
-@media (min-width: 700px) and (max-width: 2000px) {
 
-    
-
-    body{
-        margin: 0;
-        color: rgb(255, 255, 255);
-        background-color: black;
-       
-    }
-    .header-class{
-        padding-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 77vh;
+@media (min-width: 600px) and (max-width: 2000px) {
+        body{
+            margin: 0;
+            color: rgb(255, 255, 255);
+            background-color: black;
         
-    }
-    .header-h1:hover{
-        color: rgb(100, 255, 216);
-    }   
-    .header-h1{
-        font-size: 100px;
-       
-    }
-    .nev-button:hover{
-        background-color: rgb(154, 253, 255);
-    }
-    .nev-button{
-        padding: 25px;
-        margin: 10px;
-        border-radius: 20%;
-        background-color: rgb(49, 50, 49);
-        text-decoration: none;
-        font-weight: bolder;
-        font-family: "Gruppo", serif;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-    }  
-    .about-class{
-        text-align: center;
-        height: 80vh;
-        padding-top: 50px;
-    }
-    .about-h1:hover{
-        color:  aquamarine;;
-    }
-    .about-h1{
-       font-size: 40px;
-    }
-    .about-img{
-        height: 300px;
-    }
-    .about-p{
-        padding-top: 50px;
-    }
-    .MentiBY-class:hover{
-        color: rgb(99, 123, 134);
-    }
-    .MentiBY-class{
-        color: aquamarine;
-        text-decoration: none;
-    }
-    .university-class:hover{
-        color: rgb(99, 123, 134);
-    }
-    .university-class{
-        color: aquamarine;
-        text-decoration: none;
-    }
-    .skills-class{
-        height: 77vh; 
-        padding-top: 100px; 
-    }
-    .skills-h1:hover{
-        color: aquamarine;   
-    }
-    .skills-h1{
-        font-size:60px;
-        text-align: center;
-    }
-    .skills-list-div{
+        }
+        .header-class{
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 77vh;
+            
+        }
+        .header-h1:hover{
+            color: rgb(100, 255, 216);
+            text-shadow: 1px 3px 10px rgb(206, 204, 204);
+        }   
+        .header-h1{
+            font-size: 100px;
+        
+        }
+        .nev-button:hover{
+            background-color: rgb(154, 253, 255);
+            transform:translateY(-10px);
+            box-shadow: 2px 3px 15px;
+        }
+        .nev-button{
+            padding: 25px;
+            margin: 10px;
+            border-radius: 20%;
+            background-color: rgb(49, 50, 49);
+            text-decoration: none;
+            font-weight: bolder;
+            font-family: "Gruppo", serif;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            transition: all 5ms ease 1ms;
+        }  
+        .about-class{
+            text-align: center;
+            height: 80vh;
+            padding-top: 50px;
+        }
+        .about-h1:hover{
+            color:  aquamarine;;
+            text-shadow: 1px 3px 5px rgb(206, 204, 204);
+        }
+        .about-h1{
+        font-size: 50px;
+        }
+        .about-img{
+            height: 300px;
+        }
+        .about-p{
+            padding-top: 50px;
+        }
+        .MentiBY-class:hover{
+            color: rgb(99, 123, 134);
+        }
+        .MentiBY-class{
+            color: aquamarine;
+            text-decoration: none;
+        }
+        .university-class:hover{
+            color: rgb(99, 123, 134);
+        }
+        .university-class{
+            color: aquamarine;
+            text-decoration: none;
+        }
+        .skills-class{
+            height: 77vh; 
+            padding-top: 140px; 
+        }
+        .skills-h1:hover{
+            color: aquamarine;
+            text-shadow: 1px 3px 5px rgb(206, 204, 204);   
+        }
+        .skills-h1{
+            font-size:50px;
+            text-align: center;
+        }
+        .skills-list-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        
+        .projects-class{
+            height: 75vh;
+        }
+        .projects-h1:hover{
+            color: aquamarine;
+            text-shadow: 1px 3px 5px rgb(206, 204, 204);
+        }
+        .projects-h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .projects-table{
         display: flex;
         justify-content: center;
         align-items: center;
-       
-    }
+        padding-top: 100px;
+        }
+        td:hover{
+            background-color:rgb(221, 213, 213);;
+        }  
+        .projects-th{
+            color: rgb(0, 0, 0);
+            background-color: aquamarine;
+            
+        } 
+        table,th,td{
+            border: 1px solid rgb(55, 64, 67);
+            border-collapse: collapse;
+            padding: 15px;
+            text-align: center;
+            color: rgb(116, 182, 172);
+            background-color: rgb(0, 0, 0);
+        }
+        .contact-class{
+            height: 94vh;
+        }
+        .contact-h1:hover{
+            color: aquamarine;
+            text-shadow: 1px 3px 5px rgb(206, 204, 204);
+        }
+        .contact-h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .contact-form{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .contact-ol{
+            list-style-type: circle;
+            
+        }
+        .contact-li{
+            padding: 10px;
+        }
+        #submit:hover{
+            background-color: aquamarine;
+            width: 110px;
+            transform: rotate(360deg);
+            box-shadow: 1px 3px 10px rgb(206, 204, 204);
+            transition: all 1.5s ease 1ms ;
+            
+            
+        }
+          input:focus, textarea:focus, select:focus{
+            border: 3px solid rgb(101, 209, 204);
+            outline: none;
+          }
+          
+          
+        #submit{
+            transition: 2s;
+            border: none;
+            border-radius: 8%;
+            width: 80px;
+            height: 20px;
+            font-family: "Gruppo", serif;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        .about-button:hover{
+            width: 150px;
+            transform: translateX(60px);
+            transition: all 1s ease 1ms ;
+
+        }
+        .about-button{
+            background-color: black;
+            color: white;
+            font-family: "Gruppo", serif;
+            margin-left: 30px;
+        }
+        .contact-li-submit{
+            list-style-type: none;
+            padding: 10px;
+            margin-left: 100px;
+            
+        }
+        .footer-class{
+            background-color: rgb(230, 251, 0);
+            color: black;
+            text-align: center; 
+        }
     
-    .projects-class{
-        height: 75vh;
-    }
-    .projects-h1:hover{
-        color: aquamarine;
-    }
-    .projects-h1{
-        font-size: 50px;
-        text-align: center;
-    }
-    .projects-table{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       padding-top: 100px;
-    }
-    td:hover{
-        background-color:rgb(221, 213, 213);;
-    }  
-    .projects-th{
-        color: rgb(0, 0, 0);
-        background-color: aquamarine;
+        .footer-img-linkedin:hover{
+            transform: scale(1.2);
+        }
+        .footer-img-linkedin{
+            height: 40px;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+            transform: scale(1)
+        }
+        .footer-img-github:hover{
+            transform: scale(1.2);
+        }
+        .footer-img-github{
+            height: 40px;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+            transform: scale(1)
+        }
+        .footer-img-hackerrank:hover{
+            transform: scale(1.2);
+        }
+        .footer-img-hackerrank{
+            height: 40px;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+            transform: scale(1)
+        }
         
-    } 
-    table,th,td{
-        border: 1px solid rgb(55, 64, 67);
-        border-collapse: collapse;
-        padding: 15px;
-        text-align: center;
-        color: rgb(116, 182, 172);
-        background-color: rgb(0, 0, 0);
-    }
-    .contact-class{
-        height: 85vh;
-    }
-    .contact-h1:hover{
-        color: aquamarine;
-    }
-    .contact-h1{
-        font-size: 50px;
-        text-align: center;
-    }
-    .contact-form{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .contact-ol{
-        list-style-type: circle;
-         
-    }
-    .contact-li{
-        padding: 10px;
-    }
-    #submit:hover{
-        background-color: aquamarine;
-        
-    }
-    #submit{
-        transition: 2s;
-        border-radius: 10%;
-        width: 80px;
-        height: 20px;
-        font-family: "Gruppo", serif;
-    }
-    .about-button{
-        background-color: black;
-        color: white;
-        font-family: "Gruppo", serif;
-        
-    }
-    .contact-li-submit{
-        list-style-type: none;
-        padding: 10px;
-        margin-left: 120px;
-        
-    }
-    .footer-class{
-        background-color: rgb(230, 251, 0);
-        color: black;
-        text-align: center; 
-    }
-    .footer-img{
-        height: 50px;
-        padding-top: 10px;
-    }
-    .footer-img-linkedin{
-        height: 40px;
-        padding-top: 10px;
-    }
-    .footer-img-github{
-        height: 40px;
-        padding-top: 10px;
-    }
 
-
-}
+    }
